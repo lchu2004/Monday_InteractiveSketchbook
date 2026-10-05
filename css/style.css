@@ -1,0 +1,64 @@
+/* the * indicates universal styles, we will get into that later in the semester
+for now, you can leave these alone */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Css is how we add all things style, below there are two simple styles added
+go ahead and play with these, can you get the colors to change? What do you notice?
+ */
+
+img {
+    width: 100%;
+}
+
+body {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    margin-left: 30px;
+}
+
+p {
+    color: white;
+    margin-left: 30px;
+}
+
+
+nav {
+
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #808080;
+    padding: 50px;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: larger;
+}
+
+a {
+
+    text-decoration: none;
+    color: black;
+
+}
+
+footer {
+    display: block;
+    padding: 30px;
+    background-color: #808080;
+}
+
+.social-links {
+    text-transform: uppercase;
+    display: block;
+    display: flex;
+    font-weight: bold;
+    gap: 100px;
+    margin-left: 330px;
+}

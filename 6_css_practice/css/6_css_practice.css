@@ -1,0 +1,60 @@
+/* the * indicates universal styles, we will get into that later in the semester
+for now, you can leave these alone */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Css is how we add all things style, below there are two simple styles added
+go ahead and play with these, can you get the colors to change? What do you notice?
+ */
+
+body {
+
+    color: #FFFFFF;
+    background-color: #1695A3;
+}
+
+p {
+
+    color: #EB7F00;
+}
+
+h3 {
+
+    text-align: center;
+}
+
+p {
+
+    font-size: 40px;
+    font-weight: bold;
+    color: #EB7F00;
+}
+
+a {
+
+    text-decoration: none;
+}
+
+nav {
+
+    text-align: center;
+    text-transform: uppercase;
+
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: larger;
+}
+
+a {
+
+    text-decoration: none;
+}
+
+hr {
+
+    color: pink;
+}

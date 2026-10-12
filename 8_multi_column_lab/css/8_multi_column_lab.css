@@ -13,7 +13,7 @@
 body {
   background-color: #F2EBDC;
   color: #0d0d0d;
-  font-family: 'fleetwoodMac', sans-serif;
+  font-family: "fleetwoodMac", sans-serif;
   text-transform: uppercase;
 }
 
@@ -24,18 +24,17 @@ h1 {
 h2 {
   font-size: 36px;
   letter-spacing: 5px;
-  font-family: 'fleetwoodMac', sans-serif;
 }
 
 p {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 18px;
   line-height: 22px;
   text-transform: capitalize;
 }
 
 li {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 12px;
   line-height: 22px;
   letter-spacing: 5px;
@@ -55,7 +54,6 @@ footer {
   border-radius: 8px;
   background: #0D0D0D;
   color: #ffffff;
-  font-family: 'fleetwoodMac', sans-serif;
 }
 
 img {

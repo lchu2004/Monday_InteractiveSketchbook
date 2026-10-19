@@ -6,46 +6,73 @@
   <link rel="stylesheet" href="css/style.css">
   <title>Home Page</title>
 </head>
-<h1>
-  Larry Chu
-</h1>
-<br>
-<br>
-<nav>
-  <a href="index.html">Home | </a>
-  <a href="1_hierarchy/1_hierarchy.html">Hierarchy | </a>
-  <a href="2_inspiration/2_inspiration.html">Inspiration | </a>
-  <a href="3_about/3_about.html">About Me | </a>
-  <a href="4_checkpoint_one/4_checkpoint_one.html">CheckPoint One | </a>
-  <a href="5_box_model/5_box_model.html">Box Model | </a>
-  <a href="6_css_practice/6_css_practice.html">CSS Practice | </a>
-  <a href="7_mid_century_modern_blog/7_mid_century_modern_blog.html">Mid Century Modern Blog | </a>
-  <a href="8_multi_column_lab/8_multi_column_lab.html">Multi Column Lab |</a>
-  <a href="9_flexboxIRL/9_flexboxIRL.html">FlexboxIRL</a>
-</nav>
-<br>
-<br>
-<img src="img/McWay_Falls.jpg"
-  alt="McWay Falls near Carmel / Monterey Bay, Featuring a 80 foot waterfall into a clear blue ocean">
 
 <body>
-  <h1>About Me</h1>
-  <p>
-    Hey there I am Larry Chu!<br>
-    I am a 1st year transfer student, who is pursing Visual Communication Design in San Francisco State University. I
-    love photography and cars.<br>
-    This website is where I share my work, journey, insights, and projects involving SFSU and personal jobs. My goal is
-    to inspire others and to gain new clients with my work.<br><br>
-  <h1>A few quick facts about me!</h1><br>
-  <p>
-    I am based in San Francisco!<br>
-    I use to own a pink car!<br>
-    I am a semi-pro in bowling!<br>
-    I work two jobs on top of my personal interests!<br>
-  </p>
-  </p>
-  <br>
-  <br>
+
+  <header>
+    <nav>
+      <h1>
+        Larry Chu
+      </h1>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <!--  <a href="1_hierarchy/1_hierarchy.html">Hierarchy | </a> -->
+        <a href="3_about/3_about.html">About Me</a>
+        <a href="2_inspiration/2_inspiration.html">Inspiration</a>
+        <a href="4_checkpoint_one/4_checkpoint_one.html">CheckPoint One</a>
+        <!--   <a href="5_box_model/5_box_model.html">Box Model | </a>
+    <a href="6_css_practice/6_css_practice.html">CSS Practice | </a>
+    <a href="7_mid_century_modern_blog/7_mid_century_modern_blog.html">Mid Century Modern Blog | </a>
+    <a href="8_multi_column_lab/8_multi_column_lab.html">Multi Column Lab |</a>
+    <a href="9_flexboxIRL/9_flexboxIRL.html">FlexboxIRL</a> -->
+      </div>
+    </nav>
+  </header>
+
+  <br><br>
+
+  <main>
+    <img src="img/McWay_Falls.jpg"
+      alt="McWay Falls near Carmel / Monterey Bay, Featuring a 80 foot waterfall into a clear blue ocean">
+
+    <section class="about-section">
+      <div class="about-text">
+        <h2>About Me</h2>
+        <p>
+          Hey there, I am Larry Chu!<br>
+          I am a 1st year transfer student pursuing Visual Communication Design at San Francisco State University. I
+          love
+          photography and cars.<br>
+          This website is where I share my work, journey, insights, and projects involving SFSU and personal jobs. My
+          goal
+          is to inspire others and to gain new clients with my work.
+        </p>
+      </div>
+    </section>
+
+    <section class="facts-section">
+      <h2>A few quick facts about me!</h2>
+      <ul class="facts-list">
+        <li>I am based in San Francisco!</li>
+        <li>I used to own a pink car!</li>
+        <li>I am a semi-pro in bowling!</li>
+        <li>I work two jobs on top of my personal interests!</li>
+      </ul>
+    </section>
+
+
+    <section class="gallery-section">
+      <h3>Featured Work</h3>
+      <div class="gallery-grid-horizontal">
+        <img src="img/Benz.jpg" alt="Black EQB Benz alongside the Golden Gate Bridge">
+        <img src="img/Navi's Car.jpg" alt="Pink GT55 Mercedes Benz along side two other pink cars">
+        <img src="img/PinkCar.jpg" alt="Pink custom Subaru BRZ with butterfly doors alongside the Golden Gate Bridge">
+      </div>
+    </section>
+  </main>
+
+  <br><br>
+
   <footer>
     <div class="social-links">
       <a href="https://www.instagram.com/larryychuuu/" target="_blank">Instagram</a>

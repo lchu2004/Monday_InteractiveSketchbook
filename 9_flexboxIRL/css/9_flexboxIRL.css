@@ -176,3 +176,57 @@ footer {
 	width: 100dvw;
 
 }
+
+/*bring into other CSS */
+
+.org {
+	background-color: #808080;
+	color: black;
+}
+
+.footer {
+	padding: 50px;
+	background-color: #808080;
+	font-family: sans-serif;
+
+}
+
+.footer-title {
+	color: black;
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 0 0 45px 0;
+	text-align: center;
+}
+
+.footer-links {
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 24px;
+	padding: 0;
+	margin: 0 0 30px 0;
+	justify-content: center;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.footer-divider {
+	border: none;
+	border-top: 2px solid #333333;
+	margin-bottom: 30px;
+}
+
+.social-links {
+	display: flex;
+	gap: 150px;
+	text-transform: uppercase;
+	font-weight: bold;
+	justify-content: center;
+}
+
+.social-links a {
+	color: black;
+	text-decoration: none;
+}

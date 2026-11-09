@@ -111,3 +111,27 @@ a {
    display: inline-block;
    transition: transform 0.3s;
 }
+
+@media (max-width: 900px) {
+   nav {
+      flex-direction: column;
+      padding: 30px;
+      gap: 20px;
+   }
+
+   .nav-links {
+      gap: 40px;
+   }
+}
+
+@media (max-width: 600px) {
+   nav {
+      padding: 15px;
+   }
+
+   .nav-links {
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+   }
+}

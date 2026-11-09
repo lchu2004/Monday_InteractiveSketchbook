@@ -18,10 +18,25 @@ body {
 }
 
 /*bring into other CSS */
+h1 {
+    color: black;
+    margin-left: 0px;
+    position: relative;
+    transition: transform 0.3s;
+}
+
+h1:hover {
+    cursor: pointer;
+    color: pink;
+    transform: scale(1.1) translateY(-3px);
+}
 
 header {
     background-color: #808080;
     color: black;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 nav {
@@ -40,11 +55,17 @@ nav {
     gap: 100px;
 }
 
+.nav-links a:hover {
+    transform: scale(1.1) translateY(-3px);
+}
+
 a {
 
     text-decoration: none;
     color: black;
-
+    position: relative;
+    display: inline-block;
+    transition: transform 0.3s;
 }
 
 .footer {

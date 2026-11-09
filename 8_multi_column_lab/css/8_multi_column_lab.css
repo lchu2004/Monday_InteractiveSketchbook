@@ -171,11 +171,17 @@ nav {
   gap: 100px;
 }
 
+.nav-links a:hover {
+  transform: scale(1.1) translateY(-3px);
+}
+
 a {
 
   text-decoration: none;
   color: black;
-
+  position: relative;
+  display: inline-block;
+  transition: transform 0.3s;
 }
 
 .footer {

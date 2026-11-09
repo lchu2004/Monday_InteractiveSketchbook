@@ -19,11 +19,6 @@ body {
     background-color: black;
 }
 
-h1 {
-    color: black;
-    margin-left: 0px;
-}
-
 h2 {
     color: white;
     margin-bottom: 15px;
@@ -69,6 +64,7 @@ p {
     padding: 20px;
     border-radius: 8px;
     border: 1px solid #333;
+    position: relative;
 }
 
 .gallery-grid-horizontal {
@@ -81,13 +77,36 @@ p {
     width: 900px;
     height: 1200px;
     object-fit: cover;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+}
+
+.gallery-grid-horizontal img:hover {
+    cursor: pointer;
+    transform: scale(1.05) translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
 }
 
 /*bring into other CSS */
+h1 {
+    color: black;
+    margin-left: 0px;
+    position: relative;
+    transition: transform 0.3s;
+}
+
+h1:hover {
+    cursor: pointer;
+    color: pink;
+    transform: scale(1.1) translateY(-3px);
+}
 
 header {
     background-color: #808080;
     color: black;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 nav {
@@ -106,11 +125,17 @@ nav {
     gap: 100px;
 }
 
+.nav-links a:hover {
+    transform: scale(1.1) translateY(-3px);
+}
+
 a {
 
     text-decoration: none;
     color: black;
-
+    position: relative;
+    display: inline-block;
+    transition: transform 0.3s;
 }
 
 .footer {

@@ -1,0 +1,88 @@
+/* =====base styles for structure ======== */
+
+.bugRow {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 95%;
+    margin: auto;
+}
+
+.bugSection {
+    background-color: rgba(255, 255, 255, .5);
+    width: 45%;
+    padding: 5%;
+    border: 3px double #0000ff;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-bottom: 5%;
+}
+
+img {
+    width: 95%;
+    margin: auto;
+}
+
+/* ======tyograpraphy modifications for this page ===== */
+
+h3 {
+    font-size: 2em;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 2.5em;
+    font-weight: 900;
+    letter-spacing: .0125em;
+    text-transform: lowercase;
+    color: #0000ff;
+}
+
+p {
+    font-size: 1.5em;
+    font-style: italic;
+    margin-bottom: 5%;
+}
+
+/* ==== bug css ======  */
+
+/* let's do these together */
+
+.bugOne:hover {
+    transform: rotate(15deg);
+}
+
+.bugTwo:hover {
+    transform: scale(2.0);
+}
+
+.bugThree:hover {
+    transform: skew(40deg, 10deg);
+}
+
+.bugFour:hover {
+    transform: translate(15%, 70%);
+}
+
+.bugFive:hover {
+    transform: translate(5%, 25%) scale(1.0);
+}
+
+.bugSix:hover {
+    transform: skew(35deg, 5deg) rotate(60deg);
+}
+
+
+.bugSeven:hover {
+    transform: rotate(900deg);
+    transition-duration: 3s;
+}
+
+.bugEight {
+    transform: skew(30deg, 5deg) rotate(50deg) scale(0.5);
+}
